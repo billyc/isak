@@ -1,41 +1,31 @@
 # ----
 # Site
 
-title: Aperture Template
-url: "https://cosmic-hippopotamus.cloudvent.net"
-baseurl:
-google_analytics_key:
+title: WOLFIE [dot] DAD
+url: 'https://wolfie.dad'
+baseurl: '/'
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Photography portfolio template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: 'wolfie.dad !'
 social:
-  name: Aperture Template
+  name: Insta
   links:
-    - https://github.com/CloudCannon/aperture-jekyll-template
-
-# -----
-# Build
+    - https://instagram.com/isakedblad
 
 timezone: Etc/UTC
 
 permalink: pretty
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      layout: "default"
+      layout: 'default'
       text_width: true
       image: /uploads/1.jpg
-  -
-    scope:
-      path: "index.html"
+  - scope:
+      path: 'index.html'
     values:
       text_width: false
 
@@ -56,6 +46,6 @@ _options:
   image:
     width: 2048
     height: 1365
-    resize_style: "contain"
-    mime_type: "image/jpeg"
+    resize_style: 'contain'
+    mime_type: 'image/jpeg'
     expandable: true
