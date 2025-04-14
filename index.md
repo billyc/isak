@@ -13,6 +13,15 @@ photos:
   - image: /uploads/10.jpg
   - image: /uploads/11.jpg
   - image: /uploads/12.jpg
+  - image: /uploads/13.jpg
+  - image: /uploads/14.jpg
+  - image: /uploads/15.jpg
+  - image: /uploads/16.jpg
+  - image: /uploads/17.jpg
+  - image: /uploads/18.jpg
+  - image: /uploads/19.jpg
+  - image: /uploads/20.jpg
+  - image: /uploads/21.jpg
 ---
 
 <ul class="gallery">
