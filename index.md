@@ -1,0 +1,56 @@
+---
+title: Home
+photos:
+  - image: /uploads/1.jpg
+  - image: /uploads/2.jpg
+  - image: /uploads/3.jpg
+  - image: /uploads/4.jpg
+  - image: /uploads/5.jpg
+  - image: /uploads/6.jpg
+  - image: /uploads/7.jpg
+  - image: /uploads/8.jpg
+  - image: /uploads/9.jpg
+  - image: /uploads/10.jpg
+  - image: /uploads/11.jpg
+  - image: /uploads/12.jpg
+---
+
+<ul class="gallery">
+  {% for photo in page.photos %}
+  <li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: " 800x800>
+    " }}')"><a
+      title="{{ photo.caption | '' }}"
+      href="{{ site.baseurl }}{{ photo.image }}"
+      data-id="#{{ photo.image | slugify }}"
+      data-caption="{{ photo.caption | '' }}"
+    ></a>
+  </li>
+  {% endfor %}
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+  <li class="spacer"></li>
+</ul>
+
+<div class="overlay">
+  <a href="#" class="close">&#10005;</a>
+  <a class="prev">&lsaquo;</a>
+  <a class="next">&rsaquo;</a>
+  <p class="caption"></p>
+  <img />
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var script = document.createElement('script');
+  script.src = '{{ site.baseurl }}/js/lightbox.js';
+  document.body.appendChild(script);
+</script>
