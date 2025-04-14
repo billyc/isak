@@ -1,6 +1,7 @@
 ---
 title: Home
 photos:
+  - image: /uploads/0.png
   - image: /uploads/1.jpg
   - image: /uploads/2.jpg
   - image: /uploads/3.jpg
